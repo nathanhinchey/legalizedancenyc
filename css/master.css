@@ -1,0 +1,28 @@
+.endorsed {
+  color: lightgreen;
+  background: darkgreen;
+}
+.endorsed::before {
+  content: "💃💃";
+  background: white;
+}
+.endorsed::after {
+  content: "💃💃";
+  background: white;
+}
+.repeal {
+  color: green;
+}
+.reform {
+  color: goldenrod;
+}
+.keep {
+  color: white;
+  background: red;
+}
+.keep::before {
+  content: "😠";
+}
+.keep::after {
+  content: "😠";
+}
